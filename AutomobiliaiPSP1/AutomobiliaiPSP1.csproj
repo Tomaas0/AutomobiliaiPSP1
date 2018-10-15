@@ -43,11 +43,21 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AstrusVaziavimas.cs" />
+    <Compile Include="BenzininisAutomobilis.cs" />
+    <Compile Include="ElektrinisAutomobilis.cs" />
+    <Compile Include="IAutomobilis.cs" />
+    <Compile Include="IZmogus.cs" />
+    <Compile Include="Lenktynininkas.cs" />
+    <Compile Include="PaprastasVaziavimas.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Vairuotojas.cs" />
+    <Compile Include="IVaziavimoStilius.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="ClassDiagram1.cd" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
