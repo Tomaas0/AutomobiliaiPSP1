@@ -8,10 +8,9 @@ namespace AutomobiliaiPSP1
 {
     class PaprastasVaziavimas : IVaziavimoStilius
     {
-        public double Daugiklis { get; }
-        public PaprastasVaziavimas()
+        public double Daugiklis(int km)
         {
-            Daugiklis = 1.3;
+            return 1.3;
         }
     }
 }

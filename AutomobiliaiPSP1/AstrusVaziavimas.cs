@@ -8,10 +8,10 @@ namespace AutomobiliaiPSP1
 {
     class AstrusVaziavimas : IVaziavimoStilius
     {
-        public double Daugiklis { get; }
-        public AstrusVaziavimas()
+        public double Daugiklis(int km)
         {
-            Daugiklis = 1.5;
+            if (km > 100) return 1.3;
+            else return 1.5;
         }
     }
 }

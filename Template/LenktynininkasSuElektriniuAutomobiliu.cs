@@ -8,7 +8,6 @@ namespace Template
 {
     class LenktynininkasSuElektriniuAutomobiliu : Lenktynininkas
     {
-        override protected double Daugiklis { get { return 1.3; } }
         public int Rida { get; set; }
         int MaxKmLikutis { get; set; }
         int KmLikutis { get; set; }
@@ -36,6 +35,10 @@ namespace Template
         override public int LikutisKm()
         {
             return KmLikutis;
+        }
+        override protected double Daugiklis(int km)
+        {
+            return 1.3;
         }
     }
 }

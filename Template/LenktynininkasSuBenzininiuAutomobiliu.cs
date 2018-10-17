@@ -8,7 +8,6 @@ namespace Template
 {
     class LenktynininkasSuBenzininiuAutomobiliu : Lenktynininkas
     {
-        override protected double Daugiklis { get { return 1.3; } }
         public int Rida { get; set; }
         int BakoTalpa { get; set; }
         double BakoLikutis { get; set; }
@@ -38,6 +37,10 @@ namespace Template
         {
             double likutis = BakoLikutis / Sanaudos * 100;
             return Int32.Parse(likutis.ToString("0"));
+        }
+        override protected double Daugiklis(int km)
+        {
+            return 1.3;
         }
     }
 }

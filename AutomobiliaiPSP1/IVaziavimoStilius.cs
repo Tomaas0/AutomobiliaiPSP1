@@ -8,6 +8,6 @@ namespace AutomobiliaiPSP1
 {
     public interface IVaziavimoStilius
     {
-        double Daugiklis { get; }
+        double Daugiklis(int km);
     }
 }
