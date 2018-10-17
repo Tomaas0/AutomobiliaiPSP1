@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Template.AstrusLenktynininkasSuBenzininiuAutomobiliu" Collapsed="true">
+    <Position X="3.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAABABEAAEQAAAAAAAAAAAAAgAAAAAAAAAAAEA=</HashCode>
+      <FileName>AstrusLenktynininkasSuBenzininiuAutomobiliu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Template.AstrusLenktynininkasSuElektriniuAutomobiliu" Collapsed="true">
+    <Position X="5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAABABAAAAIAAAAAAAAAAAAAgAAAAgAAAAAAAA=</HashCode>
+      <FileName>AstrusLenktynininkasSuElektriniuAutomobiliu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Template.Lenktynininkas" Collapsed="true">
+    <Position X="6" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Lenktynininkas.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Template.LenktynininkasSuBenzininiuAutomobiliu" Collapsed="true">
+    <Position X="6.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAABABEAAEQAAAAAAAAAAAAAgAAAAAAAAAAAAA=</HashCode>
+      <FileName>LenktynininkasSuBenzininiuAutomobiliu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Template.LenktynininkasSuElektriniuAutomobiliu" Collapsed="true">
+    <Position X="8.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAABABAAAAIAAAAAAAAAAAAAgAAAAgAAAAAAAA=</HashCode>
+      <FileName>LenktynininkasSuElektriniuAutomobiliu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Template.Vairuotojas" Collapsed="true">
+    <Position X="3.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Vairuotojas.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Template.VairuotojasSuBenzininiuAutomobiliu" Collapsed="true">
+    <Position X="2" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAEAABAAEAAEQAAAAAAAAAAAAAgAAAAAAAAAAAAA=</HashCode>
+      <FileName>VairuotojasSuBenzininiuAutomobiliu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Template.VairuotojasSuElektriniuAutomobiliu" Collapsed="true">
+    <Position X="5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAEAABAAAAAAIAAAAAAAAAAAAAgAAAAgAAAAAAAA=</HashCode>
+      <FileName>VairuotojasSuElektriniuAutomobiliu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
