@@ -14,6 +14,10 @@ namespace Template
         public void Vairuoti(int km)
         {
             Vaziuoti(km, 1);
+            Console.WriteLine("Pravaziavo {0} km", km);
+            Console.WriteLine("Liko {0}% bako", LikutisProc());
+            Console.WriteLine("Dar galima nuvaziuoti {0}km", LikutisKm());
+            Console.WriteLine("");
         }
     }
 }
