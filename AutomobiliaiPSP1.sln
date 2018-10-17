@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28010.2003
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutomobiliaiPSP1", "AutomobiliaiPSP1\AutomobiliaiPSP1.csproj", "{AF604B25-1A85-4A10-935B-E56DD5CA828C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Template", "Template\Template.csproj", "{84C0CF85-9F15-4766-8CBD-5EBC4C4F322C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{AF604B25-1A85-4A10-935B-E56DD5CA828C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AF604B25-1A85-4A10-935B-E56DD5CA828C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AF604B25-1A85-4A10-935B-E56DD5CA828C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84C0CF85-9F15-4766-8CBD-5EBC4C4F322C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84C0CF85-9F15-4766-8CBD-5EBC4C4F322C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84C0CF85-9F15-4766-8CBD-5EBC4C4F322C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84C0CF85-9F15-4766-8CBD-5EBC4C4F322C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

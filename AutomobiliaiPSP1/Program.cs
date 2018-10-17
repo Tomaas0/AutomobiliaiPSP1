@@ -25,6 +25,31 @@ namespace AutomobiliaiPSP1
             Antras.Lenktyniauti(50);
             Trecias.Lenktyniauti(50);
             Ketvirtas.Lenktyniauti(50);
+
+            Console.WriteLine(Tomas.TransportoPriemone.Rida);
+            Console.WriteLine(Tomas.TransportoPriemone.LikutisProc());
+            Console.WriteLine(Tomas.TransportoPriemone.LikutisKm());
+
+            Console.WriteLine(Veganas.TransportoPriemone.Rida);
+            Console.WriteLine(Veganas.TransportoPriemone.LikutisProc());
+            Console.WriteLine(Veganas.TransportoPriemone.LikutisKm());
+
+            Console.WriteLine(Pirmas.TransportoPriemone.Rida);
+            Console.WriteLine(Pirmas.TransportoPriemone.LikutisProc());
+            Console.WriteLine(Pirmas.TransportoPriemone.LikutisKm());
+
+            Console.WriteLine(Antras.TransportoPriemone.Rida);
+            Console.WriteLine(Antras.TransportoPriemone.LikutisProc());
+            Console.WriteLine(Antras.TransportoPriemone.LikutisKm());
+
+            Console.WriteLine(Trecias.TransportoPriemone.Rida);
+            Console.WriteLine(Trecias.TransportoPriemone.LikutisProc());
+            Console.WriteLine(Trecias.TransportoPriemone.LikutisKm());
+
+            Console.WriteLine(Ketvirtas.TransportoPriemone.Rida);
+            Console.WriteLine(Ketvirtas.TransportoPriemone.LikutisProc());
+            Console.WriteLine(Ketvirtas.TransportoPriemone.LikutisKm());
+
         }
     }
 }
