@@ -25,30 +25,6 @@ namespace Template
             Antras.Lenktyniauti(50);
             Trecias.Lenktyniauti(50);
             Ketvirtas.Lenktyniauti(50);
-
-            Console.WriteLine(Tomas.Rida);
-            Console.WriteLine(Tomas.LikutisProc());
-            Console.WriteLine(Tomas.LikutisKm());
-
-            Console.WriteLine(Veganas.Rida);
-            Console.WriteLine(Veganas.LikutisProc());
-            Console.WriteLine(Veganas.LikutisKm());
-
-            Console.WriteLine(Pirmas.Rida);
-            Console.WriteLine(Pirmas.LikutisProc());
-            Console.WriteLine(Pirmas.LikutisKm());
-
-            Console.WriteLine(Antras.Rida);
-            Console.WriteLine(Antras.LikutisProc());
-            Console.WriteLine(Antras.LikutisKm());
-
-            Console.WriteLine(Trecias.Rida);
-            Console.WriteLine(Trecias.LikutisProc());
-            Console.WriteLine(Trecias.LikutisKm());
-
-            Console.WriteLine(Ketvirtas.Rida);
-            Console.WriteLine(Ketvirtas.LikutisProc());
-            Console.WriteLine(Ketvirtas.LikutisKm());
         }
     }
 }
