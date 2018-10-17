@@ -13,7 +13,7 @@ namespace AutomobiliaiPSP1
         {
             this.TransportoPriemone = car;
         }
-        public void Vaziuoti(int km)
+        public void Vairuoti(int km)
         {
             TransportoPriemone.Vaziuoti(km);
         }

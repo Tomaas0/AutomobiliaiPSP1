@@ -18,8 +18,8 @@ namespace AutomobiliaiPSP1
             Lenktynininkas Trecias = new Lenktynininkas(new ElektrinisAutomobilis(400), new PaprastasVaziavimas());
             Lenktynininkas Ketvirtas = new Lenktynininkas(new ElektrinisAutomobilis(400), new AstrusVaziavimas());
 
-            Tomas.Vaziuoti(100);
-            Veganas.Vaziuoti(100);
+            Tomas.Vairuoti(100);
+            Veganas.Vairuoti(100);
 
             Pirmas.Lenktyniauti(50);
             Antras.Lenktyniauti(50);

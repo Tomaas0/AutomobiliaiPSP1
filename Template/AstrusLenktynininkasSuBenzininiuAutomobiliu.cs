@@ -8,34 +8,33 @@ namespace Template
 {
     class AstrusLenktynininkasSuBenzininiuAutomobiliu : Lenktynininkas
     {
-        public double Daugiklis { get; }
+        override protected double Daugiklis { get { return 1.5; } }
         public int Rida { get; set; }
         int BakoTalpa { get; set; }
         double BakoLikutis { get; set; }
         double Sanaudos { get; set; }
         public AstrusLenktynininkasSuBenzininiuAutomobiliu(double Sanaudos, int BakoTalpa = 70)
         {
-            Daugiklis = 1.5;
             Rida = 0;
             this.BakoTalpa = BakoTalpa;
             this.BakoLikutis = BakoTalpa;
             this.Sanaudos = Sanaudos;
         }
 
-        override public void Lenktyniauti(int km)
+        override protected void Vaziuoti(int km, double kuroDaugiklis)
         {
-            double kiekReikiaDegalu = Sanaudos * Daugiklis / 100 * km;
+            double kiekReikiaDegalu = Sanaudos * kuroDaugiklis / 100 * km;
             if (kiekReikiaDegalu < BakoLikutis)
             {
                 BakoLikutis -= kiekReikiaDegalu;
                 Rida += km;
             }
         }
-        public double LikutisProc()
+        override public double LikutisProc()
         {
             return BakoLikutis / BakoTalpa * 100;
         }
-        public int LikutisKm()
+        override public int LikutisKm()
         {
             double likutis = BakoLikutis / Sanaudos * 100;
             return Int32.Parse(likutis.ToString("0"));

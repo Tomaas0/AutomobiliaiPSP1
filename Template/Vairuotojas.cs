@@ -8,6 +8,12 @@ namespace Template
 {
     public abstract class Vairuotojas
     {
-        public abstract void Vaziuoti(int km);
+        protected abstract void Vaziuoti(int km, double kuroDaugiklis);
+        public abstract double LikutisProc();
+        public abstract int LikutisKm();
+        public void Vairuoti(int km)
+        {
+            Vaziuoti(km, 1);
+        }
     }
 }

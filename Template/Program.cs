@@ -18,8 +18,8 @@ namespace Template
             LenktynininkasSuElektriniuAutomobiliu Trecias = new LenktynininkasSuElektriniuAutomobiliu(400);
             AstrusLenktynininkasSuElektriniuAutomobiliu Ketvirtas = new AstrusLenktynininkasSuElektriniuAutomobiliu(400);
 
-            Tomas.Vaziuoti(100);
-            Veganas.Vaziuoti(100);
+            Tomas.Vairuoti(100);
+            Veganas.Vairuoti(100);
 
             Pirmas.Lenktyniauti(50);
             Antras.Lenktyniauti(50);

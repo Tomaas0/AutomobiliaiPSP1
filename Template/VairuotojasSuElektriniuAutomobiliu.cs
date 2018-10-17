@@ -17,21 +17,21 @@ namespace Template
             this.MaxKmLikutis = MaxKmLikutis;
             this.KmLikutis = MaxKmLikutis;
         }
-
-        override public void Vaziuoti(int km)
+        override protected void Vaziuoti(int km, double kuroDaugiklis)
         {
-            if (km < KmLikutis)
+            int kiekReikiaDegalu = Int32.Parse((km * kuroDaugiklis).ToString("0"));
+            if (kiekReikiaDegalu < KmLikutis)
             {
-                KmLikutis -= km;
+                KmLikutis -= kiekReikiaDegalu;
                 Rida += km;
             }
         }
-        public double LikutisProc()
+        override public double LikutisProc()
         {
             double proc = (double)KmLikutis / (double)MaxKmLikutis * 100;
             return proc;
         }
-        public int LikutisKm()
+        override public int LikutisKm()
         {
             return KmLikutis;
         }

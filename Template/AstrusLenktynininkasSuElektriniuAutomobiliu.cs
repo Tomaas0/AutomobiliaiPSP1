@@ -8,6 +8,7 @@ namespace Template
 {
     class AstrusLenktynininkasSuElektriniuAutomobiliu : Lenktynininkas
     {
+        override protected double Daugiklis { get { return 1.5; } } 
         public int Rida { get; set; }
         int MaxKmLikutis { get; set; }
         int KmLikutis { get; set; }
@@ -18,21 +19,21 @@ namespace Template
             this.KmLikutis = MaxKmLikutis;
         }
 
-        override public void Lenktyniauti(int km)
+        override protected void Vaziuoti(int km, double kuroDaugiklis)
         {
-            int kiekReikiaDegalu = Int32.Parse((km * 1.5).ToString("0"));
+            int kiekReikiaDegalu = Int32.Parse((km * kuroDaugiklis).ToString("0"));
             if (kiekReikiaDegalu < KmLikutis)
             {
                 KmLikutis -= kiekReikiaDegalu;
                 Rida += km;
             }
         }
-        public double LikutisProc()
+        override public double LikutisProc()
         {
             double proc = (double)KmLikutis / (double)MaxKmLikutis * 100;
             return proc;
         }
-        public int LikutisKm()
+        override public int LikutisKm()
         {
             return KmLikutis;
         }

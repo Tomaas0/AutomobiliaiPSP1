@@ -8,6 +8,7 @@ namespace Template
 {
     class LenktynininkasSuBenzininiuAutomobiliu : Lenktynininkas
     {
+        override protected double Daugiklis { get { return 1.3; } }
         public int Rida { get; set; }
         int BakoTalpa { get; set; }
         double BakoLikutis { get; set; }
@@ -20,20 +21,20 @@ namespace Template
             this.Sanaudos = Sanaudos;
         }
 
-        override public void Lenktyniauti(int km)
+        override protected void Vaziuoti(int km, double kuroDaugiklis)
         {
-            double kiekReikiaDegalu = Sanaudos * 1.3 / 100 * km;
+            double kiekReikiaDegalu = Sanaudos * kuroDaugiklis / 100 * km;
             if (kiekReikiaDegalu < BakoLikutis)
             {
                 BakoLikutis -= kiekReikiaDegalu;
                 Rida += km;
             }
         }
-        public double LikutisProc()
+        override public double LikutisProc()
         {
             return BakoLikutis / BakoTalpa * 100;
         }
-        public int LikutisKm()
+        override public int LikutisKm()
         {
             double likutis = BakoLikutis / Sanaudos * 100;
             return Int32.Parse(likutis.ToString("0"));

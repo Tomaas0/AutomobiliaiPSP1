@@ -20,7 +20,7 @@ namespace Template
             this.Sanaudos = Sanaudos;
         }
 
-        override public void Vaziuoti(int km)
+        override protected void Vaziuoti(int km, double kuroDaugiklis)
         {
             double kiekReikiaDegalu = Sanaudos / 100 * km;
             if (kiekReikiaDegalu < BakoLikutis)
@@ -29,11 +29,11 @@ namespace Template
                 Rida += km;
             }
         }
-        public double LikutisProc()
+        override public double LikutisProc()
         {
             return BakoLikutis / BakoTalpa * 100;
         }
-        public int LikutisKm()
+        override public int LikutisKm()
         {
             double likutis = BakoLikutis / Sanaudos * 100;
             return Int32.Parse(likutis.ToString("0"));

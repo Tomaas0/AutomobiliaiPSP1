@@ -8,7 +8,13 @@ namespace Template
 {
     abstract class Lenktynininkas
     {
-        double Daugiklis { get; }
-        abstract public void Lenktyniauti(int km);
+        abstract protected double Daugiklis { get; }
+        abstract protected void Vaziuoti(int km, double kuroDaugiklis);
+        abstract public double LikutisProc();
+        abstract public int LikutisKm();
+        public void Lenktyniauti(int km)
+        {
+            Vaziuoti(km, Daugiklis);
+        }
     }
 }
