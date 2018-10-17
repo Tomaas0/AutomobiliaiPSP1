@@ -16,6 +16,10 @@ namespace AutomobiliaiPSP1
         public void Vairuoti(int km)
         {
             TransportoPriemone.Vaziuoti(km);
+            Console.WriteLine("Pravaziavo {0} km" , km);
+            Console.WriteLine("Liko {0}% bako", TransportoPriemone.LikutisProc());
+            Console.WriteLine("Dar galima nuvaziuoti {0}km", TransportoPriemone.LikutisKm());
+            Console.WriteLine("");
         }
     }
 }
