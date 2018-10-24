@@ -7,10 +7,9 @@ object Main extends App{
   var Trecias = new LenktynininkasSuElektriniuAutomobiliu(400)
   var Ketvirtas = new AstrusLenktynininkasSuElektriniuAutomobiliu(400)
 
-  var Test = new Lenktynininkas() with Benzininis with AstrusVaziavimas {
-    override var Sanaudos = 10
-    override var BakoTalpa = 110
-    override var BakoLikutis = 110
+  var Test = new Lenktynininkas() with Elektrinis with AstrusVaziavimas {
+    override var MaxKmLikutis: Int = 100
+    override var KmLikutis: Int = 100
   }
   Test.Lenktyniauti(10)
 
